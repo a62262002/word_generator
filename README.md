@@ -40,7 +40,7 @@ http://localhost:3000
 
 ## 專案內容
 
-- 顯示餐廳所有清單
+- 顯示幹話產生器
   ![image](https://github.com/a62262002/word_generator/blob/master/pictures.png)
 
 ## 作者
