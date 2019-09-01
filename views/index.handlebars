@@ -1,0 +1,51 @@
+<div class="container py-5">
+  <form method="POST" action='/'>
+    <div class="row ">
+      <div class="card mr-4 form-col form-group" style="width: 18rem;">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+          class="card-img-top" alt="工程師">
+        <div class="card-body">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="engineer" id="engineer">
+
+            工程師
+
+          </div>
+        </div>
+      </div>
+      <div class="card mr-4 form-col form-group" style="width: 18rem;">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+          class="card-img-top" alt="設計師">
+        <div class="card-body">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="designer" id="designer">
+            設計師
+          </div>
+        </div>
+      </div>
+      <div class="card mr-4 form-col form-group" style="width: 18rem;">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+          class="card-img-top" alt="創業家">
+        <div class="card-body">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="entrepreneur" id="entrepreneur">
+            創業家
+          </div>
+        </div>
+      </div>
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-2 ">
+            <button type="submit" class="btn btn-primary">產生幹話</button>
+          </div>
+          <div class="col-8">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">
+              {{#if word}}
+              {{word}}
+              {{/if}}
+            </textarea>
+          </div>
+        </div>
+      </div>
+  </form>
+</div>
